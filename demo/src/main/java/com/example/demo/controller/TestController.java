@@ -34,6 +34,11 @@ public class TestController {
 		return "Hello World! ID " + id; 
 	}
 	
+	@GetMapping("/testRequestBody")
+	public String testControllerRequestBody(@RequestBody TestRequestBodyDTO testRequestBodyDTO) {
+		
+	}
+	
 	
 }
 
